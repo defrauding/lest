@@ -79,4 +79,5 @@ game:GetService("RunService").Heartbeat:Connect(function()
     end
 end)
 
--- Load the script from your GitHub (replace with your raw URL)
+loadstring(game:HttpGet("https://raw.githubusercontent.com/defrauding/lest/main/lest.lua", true))()
+
